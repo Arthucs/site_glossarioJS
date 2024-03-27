@@ -12,12 +12,13 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <header><h1 class="center-titulo"><img class="imagem" src="imagens/JavaScript-Logo.png" width="270" alt="Logo JavaScript, escudo larnaja com um 5 nele e as letras J e S em cima dele" title="Logo">Glossário JavaScript</h1></header>
-        
-        <h4>Seja muito bem-vindo!</h4>
-            <p>Essa página foi feita com o objetivo de auxiliar seu aprendizado em JavaScript! Reunindo definições para alguns dos conceitos mais importantes e comunmente utilizados em JS.
-            </p>
-        <hr>
+        <div class="cbc">
+            <header><h1 class="center-titulo"><img class="imagem" src="imagens/Glo-JS-Logo.png" width="65" alt="Logo JavaScript, escudo larnaja com um 5 nele e as letras J e S em cima dele" title="Logo">GLOSSÁRIO </h1></header>
+            <p>DICIONÁRIO ONLINE SOBRE JAVASCRIPT</p>
+            <h4>Seja muito bem-vindo!</h4>
+            <hr>
+        </div>
+        <p>Selecione um tópico e veja sua definição abaixo:</p>
         <select id="slc-topicos" onchange="onSelectChange()">
             <option>Selecione um tópico</option>
         </select>
@@ -28,5 +29,9 @@
         <br>
         <div id="descricao"></div>
         <textarea id="txt-desc" name="description"></textarea>
+        <br>
+        <footer>
+            
+        </footer>
     </body>
 </html>
