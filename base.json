@@ -1,0 +1,42 @@
+[
+  {
+      "id": 1,
+      "titulo": "O que é JavaScript",
+      "descricao": "JavaScript é uma linguagem de programação de alto nível utilizada amplamente na criação de páginas web, principalmente em front-end mas também é utilizada em back-end. É essa linguagem que permite a implementação de funcionalidades complexas às páginas web, normalmente usada junto de HTML e CSS. \nAlém disso, JavaScript é uma linguagem orientada a objetos e do tipo Client Side, ou seja, é executada do lado do usuário (cliente) em uma arquitetura cliente-servidor."
+  },
+  {
+      "id": 2,
+      "titulo": "Funções em JavaScript",
+      "descricao": "As funções são blocos de código reutilizáveis que executam uma determinada tarefa. Elas permitem que você modularize seu código, tornando-o mais organizado e fácil de ler. O JavaScript oferece a capacidade de definir suas próprias funções e também possui funções integradas que podem ser usadas diretamente."
+  },
+  {
+      "id": 3,
+      "titulo": "Statement 'For' em JavaScript",
+      "descricao": "‘For’ é uma estrutura de repetição, ele determina uma ação que é executada repetitivamente em relação a uma condicional e uma expressão inicial, enquanto a condição for verdadeira, a ação continua sendo executada. \nSintaxe: \nfor ([expressão inicial]; [condicional]; [atualização da inicial]) { \ndeclaração; \n}\n \n> expressão inicial: uma expressão utilizada para inicializar uma variável ou para atribuir um valor inicial. \n> condicional: uma expressão que precisava ter resultado verdadeiro para que ação seja executada. \n> atualização da inicial: a alteração da variável usada na expressão inicial. \n> declaração: instruções específicas para a execução de uma ação. \n \nExemplo de sintaxe: for (i=0; i<5; i++). \nNo exemplo acima, sendo a expressão inicial declarada como a variável 'i' sendo igual a 0, enquanto a condicional  (i<5) for verdadeira, será adicionado +1 ao valor da expressão inicial. Essa forma de utilização do 'for' é comumente usada para leitura de arrays com a variável 'i' representando um índice específico do array."
+  },
+  {
+      "id": 4,
+      "titulo": "Função 'alert()'",
+      "descricao": "Uma das mais simples funções que o JavaScript possui e é a responsável por chamar uma janela de alerta na página, útil quando precisamos passar algum recado breve ao usuário."
+  },
+  {
+      "id": 5,
+      "titulo": "Variáveis em JavaScript",
+      "descricao": "Em JavaScript, são usadas variáveis para armazenar dados. Essas podem ser declaradas utilizando as palavras-chave ‘var’, ‘let’ ou ‘const’ e podem armazenar dados como números, strings e booleanos. \n\nEx: var idade = 18 \n\nNo exemplo acima, é declarada uma variável numérica utilizando a palavra-chave ‘var’."
+  },
+  {
+      "id": 6,
+      "titulo": "Tipos de Variáveis ('var', 'let' e 'const')",
+      "descricao": "Essas 3 palavras-chaves podem ser usadas quando uma variável é declarada e cada uma possui um comportamento diferente. \n\n> ‘Var’ faz com que a variável tenha uma escopo global, podendo ser acessada em qualquer parte do código. \n\n> ‘Let’ é semelhante a ‘var’, contudo, seu escopo é de bloco, assim, se uma variável 'let' é declarada em um bloco, ela estará disponível apenas dentro daquele bloco. \n\n> ‘Const’ é utilizada para declarar Constantes, isto é, variáveis que possuem um valor fixo."
+  },
+  {
+      "id": 7,
+      "titulo": "Array em JavaScript",
+      "descricao": "Os arrays são estruturas de dados que permitem armazenar vários valores em uma única variável. É possível acessar e manipular elementos de um array usando índices. Um exemplo clássico de como itens são acessados dentro de um array é a utilização da função 'for'. \n\n<strong>(Veja a explicação no item ‘Statement For’)</strong>"
+  },
+  {
+      "id": 8,
+      "titulo": "Condicionais 'if' e 'if...else'",
+      "descricao": "Ambos ‘if’ e ‘if...else’ são estruturas que o JavaScript oferece para tomada de decisões com base em condições específicas. A utilização de ‘if’ vem sempre seguida de uma condição e a declaração de uma ação, se a condição for verdadeira a ação é executada. \nNo caso de ‘if...else’, outra instrução é declarada após o ‘if’ precedida por ‘else’, assim, caso a condição de ‘if’ seja false, a ação de 'else' é executada."
+  }
+]
