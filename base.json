@@ -32,7 +32,7 @@
   {
       "id": 7,
       "titulo": "Array em JavaScript",
-      "descricao": "Os arrays são estruturas de dados que permitem armazenar vários valores em uma única variável. É possível acessar e manipular elementos de um array usando índices. Um exemplo clássico de como itens são acessados dentro de um array é a utilização da função 'for'. \n\n<strong>(Veja a explicação no item ‘Statement For’)</strong>"
+      "descricao": "Os arrays são estruturas de dados que permitem armazenar vários valores em uma única variável. É possível acessar e manipular elementos de um array usando índices. Um exemplo clássico de como itens são acessados dentro de um array é a utilização da função 'for'. \n\n(Veja a explicação no item ‘Statement For’)"
   },
   {
       "id": 8,
