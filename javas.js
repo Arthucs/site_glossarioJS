@@ -20,7 +20,7 @@ var initSelect = function() {
 var onSelectChange = function() {
     var id = $('#slc-topicos').val();
     var item = db.data[id - 1];
-    $('#lbl-txt-desc').text(item.titulo);
+    $('#ttl-txt-desc').text(item.titulo);
     $('#txt-desc').text(item.descricao);
 };
 
